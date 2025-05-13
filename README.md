@@ -1,6 +1,7 @@
 # Búsqueda de Soluciones de Ecuaciones Diferenciales utilizando Redes Neuronales
 
-Investigación acerca del uso de redes neuronales para la búsqueda de soluciones de ecuaciones diferenciales, iniciado como parte de una iniciación científica por profesores del Centro de Docencia de Ciencias Básicas para Ingeniería, de la Universidad Austral de Chile.
+Investigación acerca del uso de redes neuronales para la búsqueda de soluciones de ecuaciones diferenciales.
+<!-- , iniciado como parte de una iniciación científica por profesores del Centro de Docencia de Ciencias Básicas para Ingeniería, de la Universidad Austral de Chile. -->
 
 Profesores responsables: 
 
@@ -9,6 +10,12 @@ Profesores responsables:
 * **Daniel Sánchez**
 
 ---
+Para más detalles, revisar el documento a continuación:
+
+https://github.com/aretesatori/solve-differential-equations/blob/main/notebook.ipynb
+
+
+<!-- ---
 ## Bibliotecas
 
 * SciANN (Tensorflow/Keras)
@@ -90,11 +97,11 @@ Las curvas generadas por SciANN están en los colores indicados. La curva de la 
 
 <p align="center">
     <img src="Ejemplo-1/Ejemplo1.png" alt="Ejemplo 1" width="80%" />
-</p>
+</p> -->
 
 
 
-## Código
+<!-- ## Código
 
 ``` python
 import sciann as sn
@@ -171,7 +178,7 @@ Orientado a modelar el comportamiento físico de un circuito RC no lineal, donde
 
 <p align="center">
     <img src="Ejemplo-2/Ejemplo2.png" alt="Ejemplo 2" width="80%" />
-</p>
+</p> -->
 
 
 ---
