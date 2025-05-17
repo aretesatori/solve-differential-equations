@@ -15,7 +15,7 @@ Para más detalles, revisar el documento a continuación:
 https://github.com/aretesatori/solve-differential-equations/blob/main/notebook.ipynb
 
 
-<!-- ---
+---
 ## Bibliotecas
 
 * SciANN (Tensorflow/Keras)
@@ -72,7 +72,7 @@ pip install sciann
 pip install matplotlib 
 ```
 
----
+<!-- ---
 # Ejemplo 1: Resolución de una EDO Lineal de Primer Orden
 
 Corresponde a un simple problema con solución analítica, implementada para probar la biblioteca SciANN.
