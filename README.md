@@ -1,7 +1,6 @@
-# Búsqueda de Soluciones de Ecuaciones Diferenciales utilizando Redes Neuronales
+# Aproximación de Soluciones de Ecuaciones Diferenciales, utilizando Redes Neuronales
 
-Investigación acerca del uso de redes neuronales para la búsqueda de soluciones de ecuaciones diferenciales.
-<!-- , iniciado como parte de una iniciación científica por profesores del Centro de Docencia de Ciencias Básicas para Ingeniería, de la Universidad Austral de Chile. -->
+Investigación acerca del uso de redes neuronales para la aproximación de soluciones de ecuaciones diferenciales, iniciado como parte de una iniciación científica por profesores del Centro de Docencia de Ciencias Básicas para Ingeniería, de la Universidad Austral de Chile.
 
 Profesores responsables: 
 
@@ -10,30 +9,28 @@ Profesores responsables:
 * **Daniel Sánchez**
 
 ---
-Para más detalles, revisar el documento a continuación:
-
-https://github.com/aretesatori/solve-differential-equations/blob/main/notebook.ipynb
-
-
----
 ## Bibliotecas
 
-* SciANN (Tensorflow/Keras)
+* ~~SciANN (Python)~~
 
-* _DeepXDE \[**Descartada porque el artículo no es de acceso libre**\]_
+* DeepXDE (Python)
 
-* NeuralPDE.jl (Julia) \[**No es una biblioteca de Python**\]
+* NeuralPDE.jl (Julia)
 
 
 ---
 ## Importante
 
-> Versión de Python utilizada: **Python 3.10.16**.
+Para el caso de SciANN y DeepXDE, ambos deben ser instalados en entornos virtuales distintos por la incompatibilidad de versiones entre Tensorflow y Keras.
 
-* Para instalar la versión dentro de un entorno ya creado en Conda:
+Para ejecutar NeuralPDE.jl, se realizaron pruebas en un sistema Debian (GNU/Linux).
+
+### Versión de Python utilizada para MacOS: Python 3.10.16
+
+* Para instalar la versión dentro de un entorno ya creado a través de Conda:
 
 ``` bash 
-conda install python=3.10 
+conda install python=3.10  
 ```
 
 * Para verificar la versión instalada:
@@ -42,8 +39,30 @@ conda install python=3.10
 python --version
 ```
 
+### Versión de Python utilizada para Debian (GNU/Linux): Python 3.11.2
+
+
+* Para verificar la versión instalada:
+
+``` bash 
+python --version
+```
 
 **Nota: Los códigos acá presentes se ejecutan dentro de un entorno virtual, con versiones específicas de Tensorflow, Keras y SciANN.**
+
+### Versión de Julia utilizada para MacOS y Debian (GNU/Linux): Julia 1.11.5
+
+* Para descargar Julia, ingrese al link https://julialang.org/downloads/
+
+* Para verificar la versión instalada:
+
+``` bash 
+julia --version
+```
+
+## Versión de NeuralPDE.jl utilizada: NeuralPDE v5.18.1
+
+
 
 ---
 ## Instalación de SciANN
@@ -67,6 +86,32 @@ pip install sciann
 ```
 
 4. Instalar Matplotlib (3.10.3)
+
+``` bash 
+pip install matplotlib 
+```
+
+## Instalación de DeepXDE
+
+1. Instalar la última versión de DeepXDE. Para este trabajo (mayo de 2025), se ha utilizado la versión **1.14.0**
+
+``` bash 
+pip install deepxde
+```
+
+2. Instalar Tensorflow (2.19.0) (la ultima version disponible)
+
+``` bash 
+pip install tensorflow 
+```
+
+2. Instalar Keras (3.10.0) (la ultima version disponible)
+
+``` bash 
+pip install keras
+```
+
+4. Instalar Matplotlib (la ultima version disponible)
 
 ``` bash 
 pip install matplotlib 
